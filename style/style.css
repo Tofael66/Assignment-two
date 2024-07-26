@@ -521,7 +521,7 @@ height: 35px;
      font-size: 0.9rem;
    padding-right: 197px;
         border-radius: 8px;
-        padding: 10px 372px 10px  10px; 
+        padding: 10px 379px 10px  10px; 
         margin-bottom: 30px;
         background: rgba(255, 255, 255, 0.1);
         border: none;
@@ -529,13 +529,123 @@ height: 35px;
 
 }
 
-
-
-
-
-
 /* calculator section end  */
 
+
+
+
+/* meet team section start */
+
+.meet-team-container{
+    color: white;
+    max-width: 1060px;
+    height: 604px;
+    margin: 0 auto;
+   
+}
+
+.image-container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+/* share tag start*/
+.trainer-1{
+    max-width: 326px;
+    height: 272px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 20px;
+  
+   
+}
+
+/* share tag end*/
+
+.image-position-1{
+    background-image: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.image-position-2{
+    background-image: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+  
+}
+
+
+.image-position-3{
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+ 
+}
+
+.image-position-4{
+    background-image: url(../images/image\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+.image-position-5{
+    background-image: url(../images/image\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+.image-position-6{
+    background-image: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+
+
+
+
+.trainer-1-title{
+    font-size: 1rem;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-bottom: 5px;
+
+}
+
+.trainer-description{
+    font-size: 0.8rem;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.meet-team-title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.meet-team-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+   margin-top: 15px;
+    text-align: center;
+    line-height: 24px;
+}
+
+/* meet team section end */
 
 
 
