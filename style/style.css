@@ -223,7 +223,8 @@ height: 580px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+    max-width: 1060px;
+    margin: 0 auto;
 }
 
 
@@ -279,42 +280,263 @@ height: 580px;
 
 
 
+/* run section satart */
 
-/* responsive small device style start */
-@media screen and (max-width:576px) {
+.run-container{
+max-width: 1060px;
+height: 371px;
+color: white;
+display: flex;
+gap: 125px;
 
-    .nav-section{
-        flex-direction: column;
-    }
-    
-    .nav-container{
-        flex-direction: column;
-        align-items: center;
-    }
+border-radius: 18px;
 
-    .banner-container{
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        margin: 0 auto;
-        width: 100%;
-    }
-    .Banner-image{
-        margin: 0 auto;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .banner-join{
-        margin-bottom: 10px;
-    }
-    .banner-container{
-    margin-top: -110px;
+background: rgb(34, 34, 34);
+margin-bottom: 50px;
 
 
-    }
 
 }
+
+.run-image>img{
+    width: 366px;
+height: 312px;
+position:absolute;
+border-radius: 18px;
+margin-top: 30px;
+margin-right: 35px;
+
+
+
+
+}
+
+.run-title{
+    font-size: 3rem;
+    font-weight: 900;
+    width: 443px;
+    margin: 20px;
+}
+
+.run-description{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    width: 443px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.run-btn{
+    font-size: 1.2rem;
+    width: 224px;
+height: 54px;
+color: white;
+border: none;
+border-radius: 42px;
+padding: 16px 40px 16px 40px;
+
+background-color:  rgb(230, 83, 60);
+}
+
+
+.run-section{
+    margin-top: 41px;
+    margin-left: 54px;
+}
+
+/* run section end */
+
+
+/* calculator section start  */
+
+.calculator{
+    color: white;
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 80px;
+   
+}
+
+.calculator-title{
+    font-size: 3rem;
+    font-weight: 900;
+    
+   
+}
+
+.calculator-description{
+    font-size: 0.9rem;
+    color:rgba(255, 255, 255, 0.5);
+  width: 671px; 
+}
+
+.calculator-container{
+margin-left: 195px;
+margin-bottom: 80px;
+}
+
+
+
+
+.bmi-calculoter{
+    color: white;
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    gap: 175px;
+ justify-content: center;
+ align-items: center;
+margin-bottom: 50px;
+
+}
+
+table{
+  
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   
+    padding: 10px  15px;
+}
+
+.thead-text{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.table-text-color{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+.bmi-section{
+    margin-bottom: 60px;
+}
+
+.table-tile{
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    margin-top: 20px;
+}
+
+
+.bmi-background-color{
+    background: rgb(34, 34, 34);
+    height: 487px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.your-bmi-title{
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+.your-bmi-description{
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 577px;
+    line-height: 1.3rem;
+    margin-bottom: 34px;
+    margin-top: 14px;
+}
+
+.your-bmi-section{
+    margin-top: 35px;
+}
+
+
+
+.form-text{
+    padding-right: 75px;
+    width: auto;
+font-size: 0.9rem;
+height: 35px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+   padding-left: 10px;
+   
+}
+
+.form-textt{
+
+    padding-right: 80px;
+    width: auto;
+font-size: 0.9rem;
+height: 35px;
+    border-radius: 8px;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.form-texttt{
+    padding-right: 90px;
+    width: auto;
+font-size: 0.9rem;
+height: 35px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+   padding-left: 10px;
+   background: rgba(255, 255, 255, 0.1);
+   border: none;
+   color: rgba(255, 255, 255, 0.6);
+}
+
+#sex-option{
+  
+    font-size: 0.9rem;
+
+        border-radius: 8px;
+        padding: 10px 212px 10px  10px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: rgba(255, 255, 255, 0.6);
+    
+}
+
+
+
+.activity-factor{
+     font-size: 0.9rem;
+   padding-right: 197px;
+        border-radius: 8px;
+        padding: 10px 372px 10px  10px; 
+        margin-bottom: 30px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+
+
+
+
+/* calculator section end  */
+
+
 
 
 @media screen and (min-width:579px)  and ( max-width:992px){
@@ -323,6 +545,7 @@ height: 580px;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    
 }
 
 } 
