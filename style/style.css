@@ -3,6 +3,10 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+   
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -14,23 +18,47 @@
 
 *{
     margin: 0;
+   
 }
 
-.body-color{
+/* .body-color{
   background-color: rgb(22, 20, 20);
+  max-width: 1800px;
+  margin: 0 auto;
 
+} */
+
+.body-design{
+    background-color: rgb(10, 4, 4);
+    max-width: 1500px;
+    margin: 0 auto;
+ 
+  
 }
+
+
+
+    
+    .playwrite-be-vlg-banner-part-color {
+      font-family: "Playwrite BE VLG", cursive;
+      font-optical-sizing: auto;
+      font-weight:300;
+      font-style: italic;
+
+    }
+ 
+
 
 .nav-container{
 color: white;
-margin-top: 60px;
+padding-top: 60px;
 
 
 
 }
 .nav-section{
     margin: 0 auto;
-
+  
 }
 
 .nav-section{
@@ -47,6 +75,7 @@ margin-top: 60px;
 .nav-title{
     font-size: 2.4rem;
     color: rgb(230, 83, 60);
+    font-style: italic;
    
 }
 
@@ -76,13 +105,19 @@ margin-top: 60px;
   
     
 }
+.shape-style{
+    
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+}
 
 .box-nav{
     height: 46px;
-    width: 380px;
+    width: 410px;
     align-items: center;
     text-align: center;
     display: flex;
+   
     border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 39px;
 display: flex;
@@ -105,8 +140,8 @@ display: flex;
     display: flex;
   
     gap: 230px;
-    background: linear-gradient(180.00deg, rgb(20, 18, 18),rgba(66, 47, 47, 0) 100%);
- 
+    /* background: linear-gradient(180.00deg, rgb(20, 18, 18),rgba(66, 47, 47, 0) 100%);
+  */
 }
 
 .banner-section{
@@ -459,7 +494,7 @@ td, th{
 
 
 .form-text{
-    padding-right: 75px;
+    padding-right: 80px;
     width: auto;
 font-size: 0.9rem;
 height: 35px;
@@ -490,7 +525,7 @@ height: 35px;
 
 
 .form-texttt{
-    padding-right: 90px;
+    padding-right: 105px;
     width: auto;
 font-size: 0.9rem;
 height: 35px;
@@ -508,7 +543,7 @@ height: 35px;
     font-size: 0.9rem;
 
         border-radius: 8px;
-        padding: 10px 212px 10px  10px;
+        padding: 10px 205px 10px  10px;
         background: rgba(255, 255, 255, 0.1);
         border: none;
         color: rgba(255, 255, 255, 0.6);
@@ -521,7 +556,7 @@ height: 35px;
      font-size: 0.9rem;
    padding-right: 197px;
         border-radius: 8px;
-        padding: 10px 379px 10px  10px; 
+        padding: 10px 378px 10px  10px; 
         margin-bottom: 30px;
         background: rgba(255, 255, 255, 0.1);
         border: none;
@@ -539,9 +574,10 @@ height: 35px;
 .meet-team-container{
     color: white;
     max-width: 1060px;
-    height: 604px;
+    height: 900px;
     margin: 0 auto;
-   
+  
+   margin-bottom: 80px;
 }
 
 .image-container{
@@ -549,6 +585,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 margin-top: 50px;
 margin-bottom: 50px;
+
 
 }
 
@@ -646,6 +683,137 @@ margin-bottom: 50px;
 }
 
 /* meet team section end */
+/* footer team section start*/
+.footer-section{
+    color: white;
+    max-width: 1060px;
+    height: 400px;
+    margin: 0 auto;
+     display: flex;
+   /* justify-content: center;
+    align-items: center; */
+  gap: 80px;
+
+}
+
+.footer-container{
+ 
+    background: rgb(34, 34, 34);
+ 
+}
+
+
+.footer-title{
+    color: rgb(230, 83, 60);
+    font-size: 4.8rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 443px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+
+.get-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+  
+
+
+}
+
+.get-title-2{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+   
+}
+
+
+
+
+.get-title-move{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 270px;
+    width:188px ;
+   
+}
+
+
+
+.list-tag-1{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+   
+
+    
+}
+
+.get-des-two>li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+  
+}
+
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 84px;
+}
+
+
+
+.footert-flex{
+    display: flex;
+margin-top: 66px;
+gap: 150px;
+    
+}
+
+
+.footer-end{
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
+
+.hr-section{
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+/* footer team section end*/
+
+
 
 
 
