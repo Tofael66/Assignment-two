@@ -173,6 +173,29 @@ padding-right: 250px;
  .form-section-btn{
     margin-right: 175px;
  }
+
+.meet-team-description{
+    width: 400px;
+    padding-left: 48px;
+}
+
+ .meet-team-container{
+    margin-top: 3900px;
+ }
+
+ .image-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background:  rgb(34, 34, 34);
+  padding-left: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  gap: 20px;
+ }
+
+
 }
 
 
