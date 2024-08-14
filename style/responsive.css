@@ -195,7 +195,21 @@ padding-right: 250px;
   gap: 20px;
  }
 
+ .footer-section{
+flex-direction: column;
+padding-left: 20px;
+ }
+.footert-flex{
+    flex-direction: column;
+    color: white;
+    margin-top: 10px;
+    gap: 10px;
+}
 
+.hr-section{
+    margin-top: 550px;
+    padding: 0px 50px 0px 50px;
+}
 }
 
 
