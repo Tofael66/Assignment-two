@@ -21,20 +21,21 @@
    
 }
 
-/* .body-color{
-  background-color: rgb(22, 20, 20);
+ .body-color{
+    background-color: rgb(59, 58, 58); 
   max-width: 1800px;
   margin: 0 auto;
 
-} */
+} 
 
 .body-design{
-    background-color: rgb(10, 4, 4);
+    /* background-color: rgb(34, 34, 34); */
     max-width: 1500px;
     margin: 0 auto;
- 
+   height: 900px;
+   border: 10px solid green;
   
-}
+} 
 
 
 
@@ -52,9 +53,14 @@
 .nav-container{
 color: white;
 padding-top: 60px;
+background-color: rgb(34, 34, 34);
 
+position: relative;
 
+}
 
+.hamberger{
+    display: none;
 }
 .nav-section{
     margin: 0 auto;
@@ -134,12 +140,12 @@ display: flex;
     display: flex;
   
     gap: 230px;
-   
+    /* background-color: rgb(34, 34, 34); */
   
 } 
 
 .banner-section{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .banner-title{
@@ -183,21 +189,19 @@ border: 1px solid rgb(255, 255, 255);
 .Banner-image{
     width: 349px;
 height: 580px;
-    margin-top: 40px;
-    
+  
+  
     background-image: url(../images/Images\ 2.png);
     background-repeat: no-repeat;
-    
-    
-
+  
 
 }
 
-.Banner-image> img{
+/* .Banner-image> img{
 
     position: absolute;
 
-}
+} */
 
 .shado-one{
     max-width: 150px;
@@ -234,6 +238,7 @@ height: 580px;
 
 }
 
+
 .shodo-title{
     font-size: 2.3rem;
     font-weight: 900;
@@ -265,14 +270,24 @@ height: 580px;
     align-items: center;
     max-width: 1060px;
     margin: 0 auto;
+    height:550px ;
+   position: absolute;
+   margin-top: 50px;
+   background: rgb(29, 15, 15);
+  
+}
+
+.habit-container{
+color: white;
 }
 
 
-.main-container{
+/* .main-container{
 
     max-width: 1060px;
     margin: 0 auto;
-}
+  
+} */
 
 .habit-title{
     font-size: 3rem;
@@ -316,7 +331,58 @@ height: 580px;
 }
 
 
+ .all-web-color{
+    background: rgb(26, 15, 15);
+    max-width: 1060px;
+    margin: 0 auto;
+ }
+
 /* habbit section end */
+
+
+
+/* new habit start */
+.new-habit{
+color: white;
+background-color: rgb(22, 12, 12);
+padding-bottom: 80px;
+
+}
+.habit-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+
+.habit-descriptions{
+    text-align: center;
+    font-size: 1.rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 60px;
+   
+    text-align: center;
+}
+.team-sectionse{
+display: flex;
+   gap: 35px;
+   align-items: center;
+   justify-content: center;
+}
+
+  .team-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+}  
+/* new habit end */
+
+
 
 
 
@@ -328,7 +394,7 @@ height: 371px;
 color: white;
 display: flex;
 gap: 125px;
-
+margin: 0 auto;
 border-radius: 18px;
 
 background: rgb(34, 34, 34);
@@ -338,14 +404,21 @@ margin-bottom: 50px;
 
 }
 
+.run-color{
+    max-width: 1800px;
+ background-color: rgb(22, 12, 12); 
+ padding-bottom: 50px;
+}
+
 .run-image>img{
     width: 366px;
 height: 312px;
-position:absolute;
+
 border-radius: 18px;
 margin-top: 30px;
 margin-right: 35px;
-
+object-fit: none;
+object-position: 66% 33%;
 
 
 
@@ -389,11 +462,16 @@ background-color:  rgb(230, 83, 60);
 
 /* calculator section start  */
 
+
+.calculator-all-color{
+    max-width: 1800px;
+     background-color: rgb(22, 12, 12);  ;
+}
 .calculator{
     color: white;
     max-width: 1060px;
     margin: 0 auto;
-    margin-top: 80px;
+    /* margin-top: 80px; */
    
 }
 
@@ -408,6 +486,8 @@ background-color:  rgb(230, 83, 60);
     font-size: 0.9rem;
     color:rgba(255, 255, 255, 0.5);
   width: 671px; 
+  margin-top: 10px;
+  line-height: 20px;
 }
 
 .calculator-container{
@@ -530,7 +610,7 @@ height: 35px;
 
 
 .form-texttt{
-    padding-right: 105px;
+    padding-right: 95px;
     width: auto;
 font-size: 0.9rem;
 height: 35px;
@@ -548,7 +628,7 @@ height: 35px;
     font-size: 0.9rem;
 
         border-radius: 8px;
-        padding: 10px 205px 10px  10px;
+        padding: 10px 214px 10px  10px;
         background: rgba(255, 255, 255, 0.1);
         border: none;
         color: rgba(255, 255, 255, 0.6);
@@ -559,7 +639,7 @@ height: 35px;
 
 .activity-factor{
      font-size: 0.9rem;
-   padding-right: 197px;
+   padding-right: 300px;
         border-radius: 8px;
         padding: 10px 378px 10px  10px; 
         margin-bottom: 30px;
@@ -818,23 +898,72 @@ gap: 150px;
 
 }
 
+
+
 /* footer team section end*/
 
 
 
+/*
 
+@media screen and (max-width:576px)  {
 
-@media screen and (min-width:579px)  and ( max-width:992px){
+    .nav-section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
 
-.banner-container{
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    .banner-container{
+        flex-direction: column;
+        padding-left: 20px;
+      
+        padding-bottom: 20px;
+    } 
+
+    .habit-container{
+ flex-direction: column;
+ height: auto;
+ 
+
+    }
+
     
+.banner-container{
+    height: 715px;
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+  
+    gap: 30px;
+    flex-direction: column;
+    margin-bottom: 30px;
+   
+  
+} 
+
+.habit-teams{
+    flex-direction: column;
+
+}
+ 
+.habit-container{
+    flex-direction: column;
+    margin-top: 400px;
 }
 
+.run-container{
+    flex-direction: column;
+   margin-left: 2px;
+}
+
+
+.run-image>img {
+    flex-direction: column;
+  width: 100%;
+
+}
 } 
-    
+    */
 
 /* responsive small device style end */
 

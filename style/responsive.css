@@ -1,0 +1,182 @@
+@media screen and (max-width:800px) {
+
+    .nav-section{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    .nav-section{
+        flex-direction: row;
+       padding: 20px;
+    }
+  .hamberger{
+    display: block;
+   
+  }
+
+  .box-nav{
+    display: none;
+  }
+
+  .banner-container{
+    flex-direction: column;
+    padding-left: 20px;
+  
+    padding-bottom: 20px;
+} 
+
+
+.banner-section{
+    margin-top: 60px;
+  
+}
+
+.banner-description{
+width: 400px;
+font-size: 1.5rem;
+line-height: 35px;
+}
+.Banner-image{
+    margin-top: -100px;
+    margin-left: 30px;
+    
+   
+}
+
+
+.small-div-color{
+max-width: 600px;
+height:auto; 
+
+
+ 
+    margin-top: -100px;
+}
+
+.nav-container{
+position: relative;
+}
+.new-habit{
+ position: absolute; 
+margin-top: 550px;
+flex-direction: column;
+
+}
+
+
+
+.team-description{
+    padding-bottom: 10px;
+}
+
+.team-sectionse{
+    flex-direction: column;
+}
+
+.run-color{
+margin-top: 2100px;
+position: absolute;
+}
+.run-container{
+    flex-direction: column;
+}
+.run-image{
+    margin-top: -100px;
+    margin-left: 55px;
+    background: rgb(34, 34, 34);
+    border: 10px solid rgb(34, 34, 34);;
+}
+
+
+.calculator-all-color{
+ position: absolute;
+ margin-top: 2830px;
+ flex-direction: column;
+}
+
+ .bmi-calculoter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.calculator-container{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    }
+    .bmi-section{
+        margin-bottom: 10px;
+        margin-right: 260px;
+        margin-top: 220px;
+         padding-top: 100px;
+    }
+
+    .table-tile{
+       padding-top: 30px;
+      
+
+    }
+ 
+.cal-move{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.your-bmi-title{
+    margin-right: 150px;
+}
+.calculator-description{
+    width: 450px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    
+}
+    .your-bmi-section{
+        margin-top: 10px;
+        margin-left: -2px;
+        margin-right: 130px;
+    }
+
+    .your-bmi-description{
+        width: 450px;
+        font-size: 1.rem;
+        padding: 5px 0px 0px 20px;
+    }
+
+    .form-text{
+        margin-top: 30px;
+    padding-right: 15px;
+    }
+    .form-textt{
+        padding-right: 20px;
+    }
+ .form-texttt{
+  padding-right: 30px;
+ }
+ #sex-option{
+ 
+    padding: 10px 150px 10px  10px;
+ }
+ .activity-factor{
+padding-right: 250px;
+ }
+
+ .form-section-btn{
+    margin-right: 175px;
+ }
+}
+
+
+
+
+
+
